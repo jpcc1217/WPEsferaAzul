@@ -92,30 +92,35 @@
 
 
 
-#menu{
+.menu{
     display:flex; 
     margin: auto;
     width: 90%;
     height: auto;
     background: yellow;
+    text-align:center;
     
 }
 
 
-#objmenu{
+.objmenu{
     
     display:inline-flex;
     width: 40%;
-    text-align:center;
     height:50px;
     background:gray;
-    border-style: dashed;
+    border-style: solid;
+    border-color: black;
     
-    
-    
-    
+      
 }
 
+.objmenu p{
+    color:black;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
 a{
   color: aqua;
   text-decoration: none;
