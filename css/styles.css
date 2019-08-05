@@ -1,3 +1,11 @@
+body {
+    background-image: url(../img/fondosimple.jpg) ;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+
 /*CARRUSEL*/
 .slider {
 	width: 80%;
