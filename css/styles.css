@@ -1,10 +1,11 @@
 
 body {
-    background-image: url(../img/fondosimple.jpg) ;
+    background-image: url(../img/1080-2.jpg);
     background-size: cover;
     background-attachment: fixed;
     margin: 0;
     font-family: 'Roboto', serif;
+    
 }
 
 
@@ -89,7 +90,7 @@ body {
     
     width: 30%;
     height: 100%;
-    background: rgb(35, 133, 56);
+    background: rgb(25, 131, 11);
     text-align: center;
     float: right;
     font-size: 150%;
@@ -128,7 +129,7 @@ body {
     display:inline-flex;
     width: 40%;
     height:50px;
-    background:rgb(104, 90, 196);
+    background:rgb(0, 0, 0);
     justify-content: center;
     align-items: center;
     /*border-left-width: 1px;
@@ -138,7 +139,7 @@ body {
 }
 
 .objmenu p{
-    color:black;
+    color:rgb(255, 255, 255);
     margin-left: auto;
     margin-right: auto;
     
@@ -198,7 +199,7 @@ a{
     margin-left: auto;
     margin-right: auto;
     
-    width: 80%;
+    width: 90%;
     height: auto;
     text-align: center;
     
@@ -210,7 +211,7 @@ a{
   height: 200px;
   margin: 1%; 
   border-radius: 50px;
-  background:rgb(15, 145, 37);
+  background:rgb(61, 204, 48);
   
   
   
@@ -242,6 +243,8 @@ a{
     
     overflow-y: hidden;
     background:inherit;
+   
+    text-align: justify;
 }
 
 
@@ -261,20 +264,22 @@ a{
 }
 
 .cardboxtextdiv p{
-    color: black;
+    color: rgb(0, 0, 0);
     align-content: center;
-    
-    word-wrap: break-word;
-    word-break: break-all;
     margin: 5%;
+    hyphens: auto;
+    word-break: keep-all;
+    word-wrap: none;
+    
     
     
 }
 
 .containergaleria .titulo{
     font-family: 'Oswald', sans-serif;
-    font-size: 170%;
-    text-decoration: underline;
+    font-size: 140%;
+    
+    
     
 }
 
