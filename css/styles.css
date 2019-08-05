@@ -4,16 +4,9 @@ body {
     background-size: cover;
     background-attachment: fixed;
     margin: 0;
+    font-family: 'Roboto', serif;
 }
 
-/*.main{
-    width: 90%;
-    background: black;
-    margin-left: auto;
-    margin-right: auto
-
-}
-*/
 
 
 
@@ -99,13 +92,10 @@ body {
     background: rgb(35, 133, 56);
     text-align: center;
     float: right;
+    font-size: 150%;
     
-    
-    
-    
-    
-
 }
+
 
 .rbtn{
     width: 27%;
@@ -127,6 +117,11 @@ body {
     
 }
 
+.objmenu p{
+    font-size: 160%;
+    
+}
+
 
 .objmenu{
     
@@ -134,9 +129,8 @@ body {
     width: 40%;
     height:50px;
     background:rgb(104, 90, 196);
-    border-style: solid;
-    border-color: black;
-    border-width: 1px;
+    justify-content: center;
+    align-items: center;
     /*border-left-width: 1px;
     border-right-width: 1px;
     */
@@ -274,6 +268,13 @@ a{
     word-break: break-all;
     margin: 5%;
     
+    
+}
+
+.containergaleria .titulo{
+    font-family: 'Oswald', sans-serif;
+    font-size: 170%;
+    text-decoration: underline;
     
 }
 
