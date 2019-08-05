@@ -1,6 +1,7 @@
 
 body {
-    background-image: url(../img/1080-2.jpg);
+    /*background-image: url(../img/1080-2.jpg);*/
+    background-color: whitesmoke;
     background-size: cover;
     background-attachment: fixed;
     margin: 0;
