@@ -165,3 +165,42 @@ a{
 #tl{
     color: black;
 }
+
+/*   asdasdas   */
+
+.containergaleria{
+    display: inline-flexbox;
+    margin-left: auto;
+    margin-right: auto;
+    background: gray;
+    width: 80%;
+    height: auto;
+    
+}
+
+.cardbox{
+  display: inline-block;
+  width: 45%;
+  background: red;
+  margin: 1%;
+  text-align: left;
+
+
+}
+
+.cardboximg{
+    display: inline-block;
+    width: 40%;
+    height: 100%;
+    background: yellow
+    
+    
+
+}
+
+.carboxtext{
+    display: inline-block;
+    width: 40%;
+    height: 100%;
+    background: blue;
+}
