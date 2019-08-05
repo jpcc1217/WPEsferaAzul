@@ -272,4 +272,21 @@ a{
 #titulogeneralseccionfundacion{
     text-align: center;
     text-justify: auto;
+    
 }
+
+
+/*   ARTICULOS*/
+
+.cardboxAR{
+    display: inline-block;
+    width: 70%;
+    height: 200px;
+    margin: 1%;
+    border-style: solid; 
+    border-width: 1px;
+    border-color: gray;
+    
+    
+    
+  }
