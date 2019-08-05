@@ -343,3 +343,19 @@ a{
    margin: 2%;
 
 }
+
+/* premios */
+
+.premios{
+    display: inline-flexbox;
+    width: 80%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.premios #premio{
+    text-align: left;
+    margin: 1%;
+    background: gray;
+}
