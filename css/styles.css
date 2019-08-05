@@ -1,6 +1,6 @@
 
 .slider {
-	width: 95%;
+	width: 80%;
 	margin: auto;
 	overflow: hidden;
 }
@@ -36,44 +36,6 @@
 	100% {margin-left: -300%;}
 }
 
-#asda{
-    text-decoration:none;
-    display:inline-block;
-    border-radius:10px;
-    background:gray;
-    color:purple;
-    width:70px;
-    height:30px;
-    text-align:center;
-    line-height:30px;  
-  }
-
-#objmenu{
-      width: 24%;
-      text-align:center;
-      line-height:30px;
-      background:black;
-      border-radius:100px;
-      display:inline-block; 
-      
-
-  }
-
-a{
-    color: aqua;
-    text-decoration: none;
-    
-    
-
-}
-
-#objsubmenu{
-    display: contents; 
-    width: 10%;
-    color: aqua;
-
-}
-
 #tl{
     width: 49%;
     text-align: center;
@@ -81,57 +43,98 @@ a{
 
 }
 
-#arr{
-    width: 100%;
-    display: inline-block;
+#headerb{
+    display: inline-flex;
+    width: 80%;
+    height: 300px;
+    
+    
+    text-align: center;
+    margin-left: 10%;
+    margin-right: 10%;
+
+
+}
+
+#logoS{
+    
+    
+    width: 60%;
+    height: 100%;
     
     text-align: center;
     
-
+    
+      
 }
 
-#logo{
-    width: 400px;
-    height: 200px;
-    display: inline-block;
-    margin: 10px;
-    
-    
-    
+#logoimg{
+    width: 80%;
+    height: 100%;    
 }
-
-
 
 #redes{
-    width: 25%;
-    height: 200px;
     
-    display: inline-block;
-    vertical-align: top;
-    
-    height: 100px;
-    text-align: right;
+    width: 40%;
+    height: 50%;
+    background: gray;
     
     
 
-}
-
-#menu{
-    
 }
 
 .rbtn{
-
-    
     width: 19%;
     height: 50px;
     border-radius: 100%;
-    text-align: center;
+    text-align: center; 
+}
+
+
+
+#menu{
+    
+    width: 90%;
+    height: auto;
+    display:inline-flexbox; 
+    
+    margin-left: auto;
+    margin-right: auto;
     
     
-   
     
 }
+
+#objmenu{
+    display:inline-block; 
+    width: 24%;
+    text-align:center;
+    vertical-align: middle;
+    
+    height:50px;
+    background:gray;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+a{
+  color: aqua;
+  text-decoration: none;
+ 
+  
+  
+
+}
+
+#objsubmenu{
+  display: none; 
+  width: 10%;
+  color: aqua;
+
+}
+
+
 
 
 .ont{
