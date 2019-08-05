@@ -1,8 +1,18 @@
+/*
 body {
     background-image: url(../img/fondosimple.jpg) ;
     background-size: cover;
     background-attachment: fixed;
 }
+
+.main{
+    width: 90%;
+    background: black;
+    margin-left: auto;
+    margin-right: auto
+
+}
+*/
 
 
 
@@ -196,6 +206,9 @@ a{
   border-style: solid; 
   border-width: 1px;
   border-color: gray;
+  border-width: 10px;
+  border-radius: 25px;
+  background: gray;
   
   
   
@@ -207,6 +220,10 @@ a{
     height: 100%;
     
     float: left;
+    overflow: hidden;
+    position: relative;
+    background:inherit;
+    
     
     
 
@@ -218,7 +235,7 @@ a{
     height: 100%;
     
     overflow-y: hidden;
-    background: lightskyblue;
+    background:inherit;
 }
 
 
@@ -229,6 +246,12 @@ a{
     height: 100%;
     
     float: left;
+    border-radius: 20px;
+    background:inherit;
+    overflow: hidden;
+    border: none;
+    
+
 }
 
 .cardboxtextdiv p{
