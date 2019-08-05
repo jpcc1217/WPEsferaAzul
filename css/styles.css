@@ -208,7 +208,7 @@ a{
 
 }   
 
-.carboxtextdiv{
+.cardboxtextdiv{
     float: right;
     width: 50%;
     height: 100%;
@@ -227,7 +227,7 @@ a{
     float: left;
 }
 
-.carboxtextdiv p{
+.cardboxtextdiv p{
     color: black;
     align-content: center;
     
@@ -302,7 +302,7 @@ a{
 
 }   
 
-.cardboxAR .carboxtextdiv{
+.cardboxAR .cardboxtextdiv{
     float: right;
     width: 60%;
     height: 100%;
