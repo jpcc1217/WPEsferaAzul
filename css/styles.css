@@ -96,7 +96,7 @@ body {
     
     width: 30%;
     height: 100%;
-    background: gray;
+    background: rgb(35, 133, 56);
     text-align: center;
     float: right;
     
@@ -122,7 +122,7 @@ body {
     margin: auto;
     width: 100%;
     height: auto;
-    background: yellow;
+
     text-align:center;
     
 }
@@ -133,13 +133,13 @@ body {
     display:inline-flex;
     width: 40%;
     height:50px;
-    background:gray;
+    background:rgb(104, 90, 196);
     border-style: solid;
     border-color: black;
-    border-width: 2px;
-    border-left-width: 1px;
+    border-width: 1px;
+    /*border-left-width: 1px;
     border-right-width: 1px;
-    
+    */
       
 }
 
@@ -183,7 +183,7 @@ a{
 
 /*FOOTER*/
 #tlb{
-    background-color:gray;
+    background-color:rgb(0, 0, 0);
     width: 100%;
     display: inline-flexbox;
     margin-left: auto;
@@ -194,7 +194,7 @@ a{
 }
 
 #tl{
-    color: black;
+    color: snow;
 }
 
 /*   asdasdas   */
@@ -214,13 +214,9 @@ a{
   display: inline-block;
   width: 45%;
   height: 200px;
-  margin: 1%;
-  border-style: solid; 
-  border-width: 1px;
-  border-color: gray;
-  border-width: 10px;
-  border-radius: 25px;
-  background: gray;
+  margin: 1%; 
+  border-radius: 50px;
+  background:rgb(15, 145, 37);
   
   
   
@@ -235,6 +231,9 @@ a{
     overflow: hidden;
     position: relative;
     background:inherit;
+    border-radius: inherit;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
     
     
     
@@ -245,6 +244,7 @@ a{
     float: right;
     width: 50%;
     height: 100%;
+    border-radius: inherit;
     
     overflow-y: hidden;
     background:inherit;
@@ -258,7 +258,7 @@ a{
     height: 100%;
     
     float: left;
-    border-radius: 20px;
+    border-radius: inherit;
     background:inherit;
     overflow: hidden;
     border: none;
