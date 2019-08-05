@@ -209,6 +209,7 @@ a{
     width: 50%;
     height: 100%;
     background: blue;
+    overflow-y: hidden;
 }
 
 
@@ -224,4 +225,10 @@ a{
 .carboxtextdiv p{
     color: yellow;
     align-content: center;
+    
+    word-wrap: break-word;
+    word-break: break-all;
+    margin: 5%;
+    
+    
 }
