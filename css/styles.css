@@ -232,8 +232,9 @@ a{
 }
 
 .cardboxtextdiv p{
-    color: rgb(188, 178, 204);
-    align-content: center;
+    color: rgb(255, 255, 255);
+    align-content: left;
+    text-align: left;
     margin: 5%;
     hyphens: auto;
     word-break: keep-all;
