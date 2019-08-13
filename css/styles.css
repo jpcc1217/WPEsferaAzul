@@ -12,14 +12,8 @@ body {
 
 
 /* -------------LOGO y REDES SOCIALES -----------*/
-#tl{
-    width: 49%;
-    text-align: center;
-    display: inline-block;
 
-}
-
-#headerb{
+/* #headerb{
     display: inline-flexbox;
     width: 100%;
     height: 300px;
@@ -33,12 +27,12 @@ body {
     margin: 0;
     
     
-}
+} */
 
 #logoS{
     
-    float: left;
-    width: 70%;
+    
+    width: 100%;
     height: 100%;
     
     text-align: center; 
@@ -46,31 +40,61 @@ body {
 
 #logoimg{
     width: 100%;
-    height: 100%;    
-}
-
-#redes{
-    
-    width: 30%;
     height: 100%;
-    background: rgb(25, 131, 11);
+    text-align: center; 
+}
+
+
+#redes {
+    background: rgb(124, 46, 46);
+    width: 25%;
+    height: 18%;
     text-align: center;
-    float: right;
-    font-size: 150%;
+    position: absolute;
+    top: 0;
+    right: 0;
+   
+    border-bottom-left-radius: 2%;
+    border-bottom-right-radius: 2%;
+  }
+
+  #botonesRedescol{
+      width: 100%;
+      height: 100%;
+      
+  }
+
+  .rbtn{
+    width: 15%;
+    height: 15%;
+    border-radius: 100%;
+    text-align: center;
+    margin: 1%;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+#prcol{
+    height: 25%;
+    text-align: center;
+    vertical-align: middle;
+    
+    
     
 }
 
+#redes p{
+    font-size: 100%;
+    vertical-align: middle;
+    color: aliceblue;
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
 
 /* --------------------MENU -------------------------------*/
 
 
-.rbtn{
-    width: 27%;
-    height: 27%;
-    border-radius: 100%;
-    text-align: center; 
-    margin: 2%;
-}
+
 
 
 
@@ -86,6 +110,8 @@ body {
 
 .objmenu p{
     font-size: 160%;
+    margin-top: auto;
+    margin-bottom: auto;
     
 }
 
@@ -98,6 +124,8 @@ body {
     background:rgb(0, 0, 0);
     justify-content: center;
     align-items: center;
+    vertical-align: middle;
+    
     /*border-left-width: 1px;
     border-right-width: 1px;
     */
@@ -410,6 +438,21 @@ a{
         
        
     }
+
+    .objmenu p{
+        font-size: 90%;
+    }
+
+    #redes p{
+        font-size: 50%;
+        
+    }
+
+    #redes {
+       
+        height: 40px;
+      
+      }
 
     
 }
