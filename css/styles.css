@@ -121,7 +121,7 @@ body {
     display:inline-flex;
     width: 40%;
     height:50px;
-    background:rgb(0, 0, 0);
+    background:rgb(31, 56, 28);
     justify-content: center;
     align-items: center;
     vertical-align: middle;
@@ -193,6 +193,17 @@ a{
     
 }
 
+.carousel-caption{
+    background: rgb(20, 19, 19);
+    border-radius: 2%;
+}
+
+.carousel-caption p{
+    text-align: justify;
+    margin: 2%;
+    
+}
+
 
 /* --------------------FOOTER -------------------------------*/
 #tlb{
@@ -205,10 +216,14 @@ a{
     
 }
 
+
 #tl{
     color: snow;
-    width: 30%;
-    
+    width: 100%;
+    text-justify: distribute-all-lines;
+    word-break: break-all;
+    text-align: center;
+
 }
 
 
@@ -228,8 +243,11 @@ a{
       height: auto;
       margin-top: 4%;
       margin-bottom: 4%;
-      background-color: black;
+      background-color: rgb(211, 211, 211);
       border-radius: 2%;
+      border-style: solid;
+      border-color: rgb(165, 142, 142);
+      border-width: 0.2px;
       
   }
   
@@ -253,14 +271,19 @@ a{
   }
   
   #secciontexto{
-      
+      height: 220px;
       background-color: inherit;
       margin-bottom: 3%;
+      margin-top: auto;
+      margin-bottom: auto;
+      overflow: hidden;
+      
   }
   
   .titulocardboxindex{
+      vertical-align: middle;
       background-color: inherit;
-      color: white;
+      color: rgb(0, 0, 0);
       text-justify: auto;
       margin: 4%;
       font-size: 150%;
@@ -406,20 +429,15 @@ a{
     overflow: hidden;
 }
 
-/* premios */
-
-.premios{
-    display: inline-flexbox;
-    width: 80%;
-    height: auto;
-    margin-left: auto;
-    margin-right: auto;
+/* contacto */
+#colimgcontacto{
+    text-align: center;
 }
 
-.premios #premio{
-    text-align: left;
-    margin: 1%;
-    height: auto;
+#imgcontacto{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 /* ------------------------------------------------------------------------ */
@@ -444,13 +462,16 @@ a{
     }
 
     #redes p{
-        font-size: 50%;
+        font-size: 35%;
         
     }
 
     #redes {
        
         height: 40px;
+        position: absolute;
+        top: 0;
+        right: 0;
       
       }
 
